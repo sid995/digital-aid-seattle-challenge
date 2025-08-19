@@ -8,7 +8,7 @@ const DonationList: React.FC<DonationListProps> = ({
   onEdit,
   onDelete,
   filterType,
-}) => {
+}: DonationListProps) => {
   const handleDelete = (id: number, donorName: string) => {
     if (
       window.confirm(`Are you sure you want to delete ${donorName}'s donation?`)

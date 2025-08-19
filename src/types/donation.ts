@@ -64,4 +64,25 @@ export interface FilterControlsProps {
   filterType: DonationType | "all";
   onFilterChange: (type: DonationType | "all") => void;
   onAddNew: () => void;
+  searchTerm: string;
+  onSearchChange: (term: string) => void;
+}
+
+// New types for search and advanced filtering
+export type SortOption = "date" | "amount" | "donorName" | "donationType";
+
+export interface SearchAndSortState {
+  searchTerm: string;
+  sortBy: SortOption;
+  sortOrder: "asc" | "desc";
+  dateFrom: string;
+  dateTo: string;
+  amountMin: string;
+  amountMax: string;
+}
+
+export interface AdvancedFiltersProps {
+  filters: SearchAndSortState;
+  onFiltersChange: (filters: Partial<SearchAndSortState>) => void;
+  onExportCSV: () => void;
 }

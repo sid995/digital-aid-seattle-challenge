@@ -15,20 +15,20 @@ export const SAMPLE_DONATIONS = [
     donorName: "Sarah Johnson",
     donationType: "money" as const,
     amount: "500",
-    date: "2024-08-15",
+    date: "2025-08-15",
   },
   {
     id: 2,
     donorName: "Mike Chen",
     donationType: "food" as const,
     amount: "20",
-    date: "2024-08-14",
+    date: "2025-08-14",
   },
   {
     id: 3,
     donorName: "Emily Davis",
     donationType: "clothing" as const,
     amount: "5",
-    date: "2024-08-13",
+    date: "2025-08-13",
   },
 ];
