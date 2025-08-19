@@ -1,5 +1,3 @@
-// hooks/useDonations.ts
-
 import { useState, useEffect } from "react";
 import {
   type Donation,

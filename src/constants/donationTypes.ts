@@ -1,5 +1,3 @@
-// constants/donationTypes.ts
-
 import { type DonationTypeInfo } from "../types/donation";
 
 export const DONATION_TYPES: DonationTypeInfo[] = [

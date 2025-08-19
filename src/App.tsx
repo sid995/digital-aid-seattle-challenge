@@ -1,28 +1,19 @@
 import { useState } from "react";
 import "./App.css";
 
-// Import custom hooks
 import { useDonations } from "./hooks/useDonations";
 
-// Import components
 import DonationForm from "./components/DonationForm";
 import DonationList from "./components/DonationList";
 import StatsDashboard from "./components/StatsDashboard";
 import FilterControls from "./components/FilterControls";
 import FilterSummary from "./components/FilterSummary";
 
-// Import utilities
 import { calculateStats, filterDonations } from "./utils/donationUtils";
 
-// Import types
 import { type Donation, type FormData } from "./types/donation";
 
-/**
- * Main App Component
- * Manages the overall application state and renders all child components
- */
 export default function App() {
-  // State management for UI
   const [showForm, setShowForm] = useState(false);
   const [editingDonation, setEditingDonation] = useState<Donation | null>(null);
 
@@ -82,7 +73,6 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 p-4">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
         <header className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
             🐾 Paws & Hearts Animal Shelter

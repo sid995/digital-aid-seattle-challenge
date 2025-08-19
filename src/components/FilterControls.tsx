@@ -1,5 +1,3 @@
-// components/FilterControls.tsx
-
 import React from "react";
 import { PlusCircle, Filter } from "lucide-react";
 import { type FilterControlsProps, type DonationType } from "../types/donation";

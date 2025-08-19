@@ -1,5 +1,3 @@
-// components/FilterSummary.tsx
-
 import React from "react";
 import { type Donation, type DonationType } from "../types/donation";
 import {

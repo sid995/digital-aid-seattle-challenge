@@ -1,5 +1,3 @@
-// utils/donationUtils.ts
-
 import {
   type Donation,
   type DonationStats,

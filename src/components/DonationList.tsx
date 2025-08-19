@@ -1,5 +1,3 @@
-// components/DonationList.tsx
-
 import React from "react";
 import { Edit2, Trash2, Gift } from "lucide-react";
 import { type DonationListProps } from "../types/donation";

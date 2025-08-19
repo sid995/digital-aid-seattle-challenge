@@ -1,5 +1,3 @@
-// components/StatsDashboard.tsx
-
 import React from "react";
 import { DollarSign, Gift, TrendingUp } from "lucide-react";
 import { type DonationStats, type StatsCardProps } from "../types/donation";
